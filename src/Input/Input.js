@@ -15,7 +15,7 @@ return (
       value={props.value}
       onChange={props.onChange}
       onBlur={props.onBlur}
-    />
+  />
 </div>
 )
 

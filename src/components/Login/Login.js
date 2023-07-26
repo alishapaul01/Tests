@@ -96,6 +96,7 @@ const Login = (props) => {
   return (
     <Card className={classes.login}>
       <form onSubmit={submitHandler}>
+
         <Input
         id='email'
         label='E-Mail'
@@ -103,8 +104,9 @@ const Login = (props) => {
         isValid= {emailIsValid}
         value={emailState.value}
         onChange={emailChangeHandler}
-        onBlur={validateEmailHandler}>
-        </Input>
+        onBlur={validateEmailHandler}
+        />
+      
         <Input
         id='password'
         label='Password'
